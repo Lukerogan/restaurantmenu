@@ -1,3 +1,10 @@
-.heading{
+/* .heading{
     background-image: url(/img/woodenboard.jpg);
+}
+
+body{
+    background-image: url(/img/Black_Wood_Background.png);
+} */
+.col{
+    border:2px solid rgb(0, 0, 0);
 }
