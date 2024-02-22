@@ -8,9 +8,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Modak&family=Yatra+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
   <div class="container-fluid text-center">
     <!--header-->
     <div class="row heading">
@@ -32,38 +36,84 @@
 
     <!--descriptions-->
     <div class="row">
-      <div class="col col-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam incidunt nam assumenda accusamus illo quod, alias porro quia animi soluta quas voluptatum debitis hic possimus deserunt deleniti quae! Ullam, deleniti.</div>
-      <div class="col col-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam incidunt nam assumenda accusamus illo quod, alias porro quia animi soluta quas voluptatum debitis hic possimus deserunt deleniti quae! Ullam, deleniti.</div>
-      <div class="col col-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam incidunt nam assumenda accusamus illo quod, alias porro quia animi soluta quas voluptatum debitis hic possimus deserunt deleniti quae! Ullam, deleniti.</div>
+      <div class="col col-4 text">literally just a pile of watermellon slices</div>
+      <div class="col col-4 text">Three magnificent subs straight from subway</div>
+      <div class="col col-4 text">noodols that taste good in your mouth</div>
     </div>
 
     <!--prices-->
     <div class="row">
-      <div class="col col-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam incidunt nam assumenda accusamus illo quod, alias porro quia animi soluta quas voluptatum debitis hic possimus deserunt deleniti quae! Ullam, deleniti.</div>
-      <div class="col col-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam incidunt nam assumenda accusamus illo quod, alias porro quia animi soluta quas voluptatum debitis hic possimus deserunt deleniti quae! Ullam, deleniti.</div>
-      <div class="col col-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam incidunt nam assumenda accusamus illo quod, alias porro quia animi soluta quas voluptatum debitis hic possimus deserunt deleniti quae! Ullam, deleniti.</div>
+      <div class="col col-4 text">Six Bucks</div>
+      <div class="col col-4 text">$4.95</div>
+      <div class="col col-4 text">a hand full of macadamia nuts</div>
     </div>
 
+    <!--nested second row of images-->
     <div class="row">
       <div class="col col-4"><img class="img-fluid" src="/img/jucyasschimkenborgor.png" alt="cimken"></div>
       <div class="col col-4">
         <div class="row h-75">
-          <div class="col col-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
-          <div class="col col-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+          <div class="col col-6 text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+          <div class="col col-6 text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
         </div>
         <div class="row h-25">
-          <div class="col col-6">price</div>
-          <div class="col col-6">price</div>
+          <div class="col col-6 text">price</div>
+          <div class="col col-6 text">price</div>
         </div>
       </div>
-      <div class="col col-4"><img class="img-fluid" src="/img/woperwoperwoperwoper.jpg" alt="wopperwopperwopperwopper"></div>
+      <div class="col col-4"><img class="img-fluid" src="/img/woperwoperwoperwoper.jpg" alt="wopperwopperwopperwopper">
+      </div>
+    </div>
+
+    <!--subheader-->
+    <div class="row">
+      <div class="col">
+        <h2>OUR SPECIALTIES</h2>
+      </div>
+    </div>
+
+    <!--first row of specialties-->
+    <div class="row">
+      <div class="col col-6"><img class="img-fluid" src="/img/dumplings.jpg" alt="dumplings"></div>
+      <div class="col col-6"><img class="img-fluid" src="/img/ramen.png" alt="ramen"></div>
+    </div>
+
+    <!--price/desc for first row-->
+    <div class="row">
+      <div class="col col-6 text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+      <div class="col col-6 text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+    </div>
+
+    <!--second row of specialties (nested)-->
+    <div class="row">
+      <div class="col col-4"><img class="img-fluid" src="/img/burrito.png" alt="burrito"></div>
+      <div class="col col-4">
+        <div class="row h-50">
+          <div class="col col-6 text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+          <div class="col col-6 text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="row h-50">
+          <div class="col col-6 text"><br>price</div>
+          <div class="col col-6 text"><br>price</div>
+        </div>
+      </div>
+      <div class="col col-4"><img class="img-fluid" src="/img/goodasspancake.png" alt="pancake">
+      </div>
+    </div>
+
+    <!--history of resteraunt-->
+    <div class="row">
+      <div class="col col-12">
+        <p>Our History Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus exercitationem sequi ea at fugit repellendus aliquid incidunt dicta. Numquam voluptatum repudiandae quisquam molestias. Labore iusto incidunt, officiis magnam dolorum ipsa.</p>
+      </div>
     </div>
 
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>
