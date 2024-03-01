@@ -29,57 +29,42 @@
     </div>
 
 
-    <div class="row justify-content-evenly">
-      <!--images-->
-      <div class="col col-4 col-md-3 order-md-1">
-        <img class="img-fluid" src="img/watermellon.png" alt="pile of watermellon">
-      </div>
-      <div class="col col-4 col-md-3 order-md-4">
-        <img class="img-fluid" src="img/subs.png" alt="pile of subs">
-      </div>
-      <div class="col col-4 d-md-none order-md-5">
-        <img class="img-fluid" src="img/pasta.png" alt="really good pasta">
-      </div>
-      <!--descriptions & prices-->
-      <div class="col col-4 col-md-2 order-md-2 text">
-        <p>literally just a pile of watermellon slices</p>
-        <p>Six Bucks</p>
-        </div>
-      <div class="col col-4 col-md-2 order-md-3 text">
-        <p>Three magnificent subs straight from subway</p>
-        <p>$4.95</p>
-        </div>
-      <div class="col col-4 d-md-none text">
-        <p>noodols that taste good in your mouth</p>
-        <p>a hand full of macadamia nuts</p>
-        </div>
+    <!--first image row-->
+    <div class="row">
+      <div class="col col-4"><img class="img-fluid" src="img/watermellon.png" alt="pile of watermellon"></div>
+      <div class="col col-4"><img class="img-fluid" src="img/subs.png" alt="pile of subs"></div>
+      <div class="col col-4"><img class="img-fluid" src="img/pasta.png" alt="really good pasta"></div>
     </div>
 
-    <!-- SECOND ROW -->
-    <div class="row justify-content-evenly">
-      <!--images-->
-      <div class="col col-3 col-md-4 order-1 order-md-1">
-        <img class="img-fluid" src="/img/jucyasschimkenborgor.png" alt="cimken">
-      </div>
-      <div class="col col-3 col-md-4 order-4 order-md-2">
-        <img class="img-fluid" src="/img/woperwoperwoperwoper.jpg" alt="wopperwopperwopperwopper">
-      </div>
-      <div class="col col-md-4 d-none d-md-block order-5 order-md-3">
-        <img class="img-fluid" src="img/pasta.png" alt="really good pasta">
-      </div>
-      <!--descriptions & prices-->
-      <div class="col col-3 col-md-4 order-2 order-md-4 text">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        <p>$5</p>
+    <!--descriptions-->
+    <div class="row">
+      <div class="col col-4 text">literally just a pile of watermellon slices</div>
+      <div class="col col-4 text">Three magnificent subs straight from subway</div>
+      <div class="col col-4 text">noodols that taste good in your mouth</div>
+    </div>
+
+    <!--prices-->
+    <div class="row">
+      <div class="col col-4 text">Six Bucks</div>
+      <div class="col col-4 text">$4.95</div>
+      <div class="col col-4 text">a hand full of macadamia nuts</div>
+    </div>
+
+    <!--nested second row of images-->
+    <div class="row">
+      <div class="col col-4"><img class="img-fluid" src="/img/jucyasschimkenborgor.png" alt="cimken"></div>
+      <div class="col col-4 nested">
+        <div class="row h-75">
+          <div class="col col-6 text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+          <div class="col col-6 text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
         </div>
-      <div class="col col-3 col-md-4 order-3 order-md-5 text">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        <p>$10</p>
+        <div class="row h-25">
+          <div class="col col-6 text">price</div>
+          <div class="col col-6 text">price</div>
         </div>
-      <div class="col col-md-4 d-none d-md-block order-md-5 text">
-        <p>noodols that taste good in your mouth</p>
-        <p>a hand full of macadamia nuts</p>
-        </div>
+      </div>
+      <div class="col col-4"><img class="img-fluid" src="/img/woperwoperwoperwoper.jpg" alt="wopperwopperwopperwopper">
+      </div>
     </div>
 
     <!--subheader-->
